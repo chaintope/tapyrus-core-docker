@@ -20,7 +20,7 @@ Refer to [How to start a node on Tapyrus testnet?](https://github.com/chaintope/
 
 #### Create `tapyrus.conf`
 
-```toml
+```bash
 cat << EOS > tapyrus.conf
 networkid=1939510133
 txindex=1
