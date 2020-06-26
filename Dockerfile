@@ -13,8 +13,8 @@ ENV DATA_DIR='/var/lib/tapyrus' \
     CONF_DIR='/etc/tapyrus'
 RUN mkdir ${DATA_DIR} && mkdir ${CONF_DIR}
 
-# p2p port (mainnet/testnet/regtest) rpc port (mainnet/testnet/regtest)
-EXPOSE 2357 12357 12383 2377 12377 12381
+# p2p port (Production/Development) rpc port (Production/Development)
+EXPOSE 2357 12383 2377 12381
 
 COPY entrypoint.sh /usr/local/bin/
 
