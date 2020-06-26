@@ -10,10 +10,6 @@
 
 ## Quick Start
 
-### Mainnet
-
-...
-
 ### Testnet
 
 Refer to [How to start a node on Tapyrus testnet?](https://github.com/chaintope/tapyrus-core/blob/master/doc/tapyrus/getting_started.md#how-to-start-a-node-on-tapyrus-testnet)
