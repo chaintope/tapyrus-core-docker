@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-ENV TAPYRUS_VERSION='v0.4.0'
+ENV TAPYRUS_VERSION='v0.4.1'
 
 RUN apt-get update && \
     apt-get install -y wget && \
